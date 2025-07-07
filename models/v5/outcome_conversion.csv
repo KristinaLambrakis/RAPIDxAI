@@ -1,0 +1,16 @@
+outcome_xgb,outcome_dl,outcome
+2,t1mi,t1mi
+2,t2mi,t1mi
+2,acute,t1mi
+2,chronic,t1mi
+2,normal,t1mi
+1,t1mi,t1mi
+1,t2mi,t2mi_acute
+1,acute,t2mi_acute
+1,chronic,t2mi_acute
+1,normal,t2mi_acute
+0,t1mi,t1mi
+0,t2mi,t2mi_acute
+0,acute,t2mi_acute
+0,chronic,chronic
+0,normal,normal

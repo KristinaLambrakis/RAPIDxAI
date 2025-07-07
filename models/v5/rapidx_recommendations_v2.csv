@@ -1,0 +1,68 @@
+"outcome","event_dmi30d","relation","heart_score","metro","rural","default_warning","debug"
+"t1mi",">=0","and",">=0","Commence Aspirin 
+Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Consider Ticagrelor (CALHN: Please defer until after coronary angiography)
+Commence Enoxaparin (or Unfractionated heparin). Suspend oral anticoagulation if pre-existing therapy
+Commence Statin
+Contact Cardiology for possible admission, consideration of coronary angiography and further medical management","Commence Aspirin 
+Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence Ticagrelor or Clopidogrel, and Enoxaparin. Suspend oral anticoagulation if pre-existing therapy
+Commence Statin
+Contact ICARnet for possible transfer, consideration of coronary angiography and further medical management including suspension of oral anticoagulation if pre-existing therapy","This is a warning message to remind you to send lhn value.","t1mi_text"
+"t2mi",">=0","and",">=0","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence aspirin initially (for re-evaluation following subsequent testing and clinical considerations e.g. oral anticoagulation) 
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Assess and treat factors that may be causing supply demand ischaemia (e.g. haemodynamic stressors, anaemia, infection etc.)
+To evaluate other cardiac diagnoses, consider echocardiogram
+Discuss suspension of oral anticoagulation if applicable
+(Consider inclusion in ACT-2 Clinical Trial – FMC & RAH)","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence aspirin initially ((for re-evaluation following subsequent testing and clinical considerations e.g. oral anticoagulation)
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Assess and treat factors that may be causing supply demand ischaemia (e.g. haemodynamic stressors, anaemia, infection etc.)
+To evaluate other cardiac diagnoses, consider echocardiography as soon as clinically feasible, potentially as outpatient
+Contact ICARnet to confirm clinical impression and plan ongoing management including oral anticoagulation if applicable","This is a warning message to remind you to send lhn value.","t2mi_text"
+"acute",">=0","and",">=0","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence aspirin initially (for re-evaluation following subsequent testing and clinical considerations e.g. oral anticoagulation) 
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Assess and treat factors that may be causing supply demand ischaemia (e.g. haemodynamic stressors, anaemia, infection etc.)
+To evaluate other cardiac diagnoses, consider echocardiogram
+Discuss suspension of oral anticoagulation if applicable
+(Consider inclusion in ACT-2 Clinical Trial – FMC & RAH)","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence aspirin initially ((for re-evaluation following subsequent testing and clinical considerations e.g. oral anticoagulation)
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Assess and treat factors that may be causing supply demand ischaemia (e.g. haemodynamic stressors, anaemia, infection etc.)
+To evaluate other cardiac diagnoses, consider echocardiography as soon as clinically feasible, potentially as outpatient
+Contact ICARnet to confirm clinical impression and plan ongoing management including oral anticoagulation if applicable","This is a warning message to remind you to send lhn value.","acute_text"
+"chronic",">=0","and",">=0","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence Aspirin initially (for re-evaluation following subsequent testing)
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Do not suspend oral anticoagulation (if applicable), unless concurrent bleeding issues present
+To evaluate other cardiac diagnoses, consider echocardiogram, assessing chronic causes of myocardial injury (e.g. hypertension/heart failure) and treat accordingly
+Consider assessment of coronary artery disease with functional testing or CTCA 
+(Consider inclusion in CHIRON Clinical Trial - FMC)","Consider and clinically exclude Aortic Dissection and Pulmonary Embolism 
+Commence aspirin initially (for re-evaluation following subsequent testing)
+Do not commence Ticagrelor or Clopidogrel
+Do not commence Enoxaparin unless otherwise indicated
+Do not suspend oral anticoagulation (if applicable), unless concurrent bleeding issues present
+To evaluate other cardiac diagnoses, consider echocardiogram, assessing chronic causes of myocardial injury (e.g. hypertension/heart failure) and treat accordingly
+Consider assessment of coronary artery disease with functional testing or CTCA
+Contact ICCNet to confirm clinical impression and plan ongoing management","This is a warning message to remind you to send lhn value.","chronic_text"
+"normal","==1","or",">3","Commence aspirin while awaiting outcome of subsequent testing
+Do not commence Ticagrelor or Clopidogrel
+Consider assessment of coronary artery disease with non-invasive testing (i.e. functional testing or CTCA) ideally within 72 hours of admission
+Review coronary artery disease risk factors and treat accordingly (i.e. Statin, ACE-I/ARB, Anti-anginal therapy [Beta-Blocker/Nitrate])
+Arrange follow-up with general practitioner to evaluate persistence of symptoms.","Commence Aspirin while awaiting outcome of subsequent testing
+Do not commence Ticagrelor or Clopidogrel
+Consider assessment of coronary artery disease with non-invasive testing (i.e. functional testing or CTCA) within 72 hours of admission
+Review coronary artery disease risk factors and treat accordingly (i.e. Statin, ACE-I/ARB, Anti-anginal therapy [Beta-Blocker/Nitrate])
+Arrange follow-up with general practitioner to evaluate persistence of symptoms.","This is a warning message to remind you to send lhn value.","Normal_>0.01and>3"
+"normal","==0","and","<=3","Do not commence Ticagrelor or Clopidogrel or Enoxaparin
+Review coronary artery disease risk factors and treat accordingly (i.e. Statin, ACE-I/ARB, Anti-anginal therapy [Beta-Blocker/Nitrate])
+Arrange follow-up with general practitioner to evaluate persistence of symptoms.","Do not commence Ticagrelor or Clopidogrel or Enoxaparin
+Review coronary artery disease risk factors and treat accordingly (i.e. Statin, ACE-I/ARB, Anti-anginal therapy [Beta-Blocker/Nitrate])
+Arrange follow-up with general practitioner to evaluate persistence of symptoms.","This is a warning message to remind you to send lhn value.","Normal_<=0.01and<=3"
